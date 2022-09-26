@@ -74,6 +74,10 @@ h2{
     margin: 5px;
 }
 
+.container .main aside ul li:hover{
+    background-color: #07C0FF;
+}
+
 .container .main aside ul li a{
     text-decoration: none;
     color: #fff;
@@ -81,8 +85,9 @@ h2{
 }
 
 .container .main aside ul li a:hover{
-    color: #242F9B;
+    color: #000;
 }
+
 .enlace{
     background-color: #56D3FD;
     color: #242F9B;
