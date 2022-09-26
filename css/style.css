@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Mukta&family=Open+Sans:ital@1&family=Oswald:wght@300&family=Poppins&family=Roboto+Condensed:wght@300&family=Roboto+Mono&family=Roboto:ital,wght@0,400;0,500;0,900;1,400&family=Silkscreen&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h2{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container{
+    width: 90%;
+    max-width: 1000px;
+    height: 90vh;
+    margin: auto;
+}
+
+.container header{
+    background-color: #242F9B;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+.container nav{
+    background-color: #07c0ff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container nav a{
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px;
+    flex-grow: 1;
+}
+
+.container nav a:hover{
+    background-color: #56D3FD;
+    color: #242F9B;
+}
+
+.container .main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .main aside{
+    background-color: #0088CF;
+    color: #fff;
+    padding: 20px;
+    flex: 30%;
+}
+
+.container .main aside ul{
+    width: 100%;
+}
+
+.container .main aside ul li{
+    list-style: none;
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.container .main aside ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding-left: 5px;
+}
+
+.container .main aside ul li a:hover{
+    color: #242F9B;
+}
+.enlace{
+    background-color: #56D3FD;
+    color: #242F9B;
+}
+
+.container .main section{
+    background-color:#3B9AE1;
+    padding: 26px;
+    flex: 70%;
+}
+
+.container .main section p{
+    margin: 7px;
+}
+
+.title{
+    color: #242F9B;
+    font-size: 25px;
+    margin: 5PX;
+}
+
+footer{
+    background-color: #07c0ff;
+    color: #242F9B;
+    padding: 20px;
+    text-align: center;
+}
+
+
+

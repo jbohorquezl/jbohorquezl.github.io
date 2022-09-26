@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@300&family=Roboto:ital,wght@0,400;1,300;1,400&family=Silkscreen&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+} 
+
+.titulo{
+    width: 400px;
+    height: 48px;
+    padding: 15px;
+    background-color: #FED7D7;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    border: 2px solid #000;
+}
+
+.caja1{
+    width: 48px;
+    height: 32px;
+    background-color: #FFF5F5;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+.caja2{
+    width: 64px;
+    height: 32px;
+    background-color: #FED7D7;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+.caja3{
+    width: 80px;
+    height: 32px;
+    background-color: #FEB2B2;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+.caja4{
+    width: 96px;
+    height: 32px;
+    background-color: #FC8181;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+.caja5{
+    width: 112px;
+    height: 32px;
+    background-color: #F56565;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+.caja6{
+    width: 128px;
+    height: 32px;
+    background-color: #E53E3E;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+.caja7{
+    width: 144px;
+    height: 32px;
+    background-color: #C53030;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+.caja8{
+    width: 160px;
+    height: 32px;
+    background-color: #9B2C2C;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+.caja9{
+    width: 176px;
+    height: 32px;
+    background-color: #742A2A;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+.margen1{
+    padding: 48px;
+}
+
+.box1{
+    width: 80px;
+    height: 32px;
+    background-color: #FFF5F5;
+    padding: 8px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+
+}
+
+.box2{
+    width: 80px;
+    height: 32px;
+    background-color: #FED7D7;
+    padding: 8px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    margin-left: 16px;
+
+}
+
+.box3{
+    width: 80px;
+    height: 32px;
+    background-color: #FEB2B2;
+    padding: 8px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    margin-left: 24px;
+
+}
+
+.box4{
+    width: 80px;
+    height: 32px;
+    background-color: #FC8181;
+    padding: 8px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    margin-left: 32px;
+
+}
+
+.box5{
+    width: 80px;
+    height: 32px;
+    background-color: #F56565;
+    padding: 8px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    margin-left: 40px;
+
+}
+
+.box6{
+    width: 80px;
+    height: 32px;
+    background-color: #E53E3E;
+    padding: 8px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    margin-left: 48px;
+
+}
+
+.box7{
+    width: 80px;
+    height: 32px;
+    background-color: #C53030;
+    padding: 8px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    margin-left: 56px;
+
+}
+
+.box8{
+    width: 80px;
+    height: 32px;
+    background-color: #9B2C2C;
+    padding: 8px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    margin-left: 64px;
+
+}
+
+.box9{
+    width: 80px;
+    height: 32px;
+    background-color: #742A2A;
+    padding: 8px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    margin-left: 72px;
+
+}
+
+.margen2{
+    padding: 48px;
+
+}
+
+.contenedor1{
+    width: 176px;
+    height: 176px;
+    background-color: #742A2A;
+    padding: 12px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .contenedor2{
+        width: 160px;
+        height: 160px;
+        background-color: #9B2C2C;
+        padding: 12px;
+        border-radius: 6px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+        .contenedor3{
+            width: 144px;
+            height: 144px;
+            background-color: #C53030;
+            padding: 12px;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+            .contenedor4{
+                width: 128px;
+                height: 128px;
+                background-color: #E53E3E;
+                padding: 12px;
+                border-radius: 6px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+                .contenedor5{
+                    width: 112px;
+                    height: 112px;
+                    background-color: #F56565;
+                    padding: 12px;
+                    border-radius: 6px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                    .contenedor6{
+                        width: 96px;
+                        height: 96px;
+                        background-color: #FC8181;
+                        padding: 12px;
+                        border-radius: 6px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+
+                        .contenedor7{
+                            width: 80px;
+                            height: 80px;
+                            background-color: #FEB2B2;
+                            padding: 12px;
+                            border-radius: 6px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+
+                            .contenedor8{
+                                width: 64px;
+                                height: 64px;
+                                background-color: #FED7D7;
+                                padding: 12px;
+                                border-radius: 6px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;                                
+
+                            }
+
+                                .contenedor9{
+                                    width: 48px;
+                                    height: 48px;
+                                    background-color: #FFF5F5;
+                                    padding: 12px;
+                                    border-radius: 6px;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+
+}

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Mukta&family=Open+Sans:ital@1&family=Oswald:wght@300&family=Roboto+Mono&family=Roboto:ital@0;1&family=Silkscreen&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    background-color:bisque;
+}
+
+section{
+    width: 80%;
+    height: 100vh;
+    background-color:#eddeed;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section article{
+    width: 80%;
+    height: 30vh;
+    background-color: azure;
+    color: blue;
+    margin: 10px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+
+}
+
+
+section article .item{
+    height: 80%;
+    width: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color:bisque;
+    margin: 10px;
+
+
+}

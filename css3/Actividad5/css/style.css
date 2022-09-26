@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Mukta&family=Open+Sans:ital@1&family=Oswald:wght@300&family=Roboto:ital@0;1&family=Silkscreen&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    background-color: #aaecff;
+    padding: 3px 12px 3px 12px;
+    border: 1px solid #000;
+    margin: 6px;
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.espacio{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.enlace{
+    background-color: #0087f3;
+    border: 1px solid #000;
+    color: #fff;
+}
+
+.caja_static{
+    width:  64px;               
+    height: 64px;             
+    background-color: #0087f3; 
+    color: #fff;
+    margin: 8px;
+    position: static;
+    right: 48px;
+}
+
+.caja_relative{
+    width:  64px;               
+    height: 64px;             
+    background-color: #0087f3; 
+    color: #fff;
+    margin: 4px;
+    position: relative;
+    left: 100px;
+    top: 50px;  
+}
+
+.caja_absolute{
+    width:  64px;               
+    height: 64px;             
+    background-color: #0087f3; 
+    color: #fff;
+    margin: 8px;
+    position: absolute;
+    left: 208px;
+    top: 50px;
+}
+
+.caja_fixed{
+    width:  64px;               
+    height: 64px;             
+    background-color: #0087f3; 
+    color: #fff;
+    margin: 8px;
+    position: fixed;
+    left: 307px;
+    top: 50px;
+}
