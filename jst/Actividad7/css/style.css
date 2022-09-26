@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Mukta&family=Open+Sans:ital@1&family=Oswald:wght@300&family=Roboto:ital@1&family=Silkscreen&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+body{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Oswald', sans-serif;
+    background: linear-gradient(27deg,#1b8ad9 50%, #1178cc 50%); 
+}
+
+.form-body{
+    width: 400px;
+    min-width: 300px;
+    border: 2px solid #173ea2;
+    border-radius: 10px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin: 10px;
+} 
+
+.form-body img{
+    width: 100px;
+    display: block;
+    margin: 20px auto;
+}
+
+.form-body .text{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 20px; 
+}
+
+.form-body input[type="number"]{
+    display: block;
+    margin: auto;
+    height: 40px;
+    width: 75%;
+    padding-left: 10px;
+    color: #fff;
+    border: 1px solid #000787;
+    border-radius: 2px;
+    font-family: 'Roboto', sans-serif;
+    background-color: transparent;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 1rem;
+    outline: none;
+}
+
+.form-body input[name="n2"]{
+    margin-top: 20px;
+}
+
+::placeholder{
+    font-size: 1rem;
+    color: #173ea2;
+}
+
+.form-body input[type="number"]:hover{
+    transition: 5s;
+    border: 1px solid #000787;
+    color: #073880;
+}
+
+.form-body input[type="button"], input[type="reset"]{
+    display: block;
+    margin: auto;
+    height: 40px;
+    width: 78%;
+    background: #03A9F4;
+    color: #000787;
+    border: 2px solid #173ea2;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    outline: none;
+    transition: all .5s ease;
+}
+
+.form-body input[type="button"]:hover{
+    transition: 5s;
+    border: 2px solid #073880;
+    color: #073880;
+    background: linear-gradient(#81D4FA,#70B9DA) ;
+}
+
+.form-body input[type="reset"]:hover{
+    transition: 5s;
+    border: 2px solid #073880;
+    color: #073880;
+    background: linear-gradient(#b50446,red) ;
+}
+
+
+.js{
+    font-size: 20px;
+    text-align: center;
+    
+}

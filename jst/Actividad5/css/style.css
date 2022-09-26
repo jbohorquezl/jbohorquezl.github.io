@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Mukta&family=Open+Sans:ital@1&family=Oswald:wght@300&family=Roboto:ital,wght@0,400;1,300;1,400&family=Silkscreen&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #91e9e7; 
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 12px;
+    background-color: #08bbff;
+    border-bottom: 2px dashed #000;
+}
+
+
+h2{
+    font-family: 'Open Sans', sans-serif;
+    color: blue;
+    padding: 12px 12px 12px 20px;
+    background-color: #20d8d8;
+    
+}
+
+nav{
+    padding: 15px 10px 15px 10px;
+    background-color: #20d8d8;
+    width: 253px;
+    margin: 10px;
+    border: 1px solid #000;
+}
+
+.enlace{
+    text-decoration: none;
+    background-color:#20b2d8;
+    color: #000;
+    margin: 5px;
+    padding: 6px 6px 6px 6px;
+    float: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue;
+
+
+}
+
+.enlace:hover{
+    background-color: #91e9e7;
+    color: blue;
+}
+
+.js{
+    background-color: #208dd8;
+    padding: 12px 10px 12px 10px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}

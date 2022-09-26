@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Mukta&family=Open+Sans:ital@1&family=Oswald:wght@300&family=Roboto:ital,wght@0,400;1,300;1,400&family=Silkscreen&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #d78e4c;
+}
+
+h1{
+    text-align: center;
+    padding: 12px;
+    border-bottom: 2px solid #000;
+}
+
+.form{
+    background-color: #b36811;
+    padding: 12px;
+    border-bottom: 1px solid #000;
+}
+
+label{
+    font-family: 'Oswald', sans-serif;
+    
+
+}
+
+#n1{
+    margin-left: 19px;
+    background-color: #ecca5c;
+    border: 1px solid #000;
+}
+
+#n2{
+    margin-left: 10px;
+    background-color: #ecca5c;
+    border: 1px solid #000;
+}
+
+
+.boton{
+    background-color: #d78e4c;
+    padding: 4px;
+    margin-left: 155px;
+    border: 1px solid #000;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.boton:hover{
+    background-color: #783e03;
+    border: 1px solid #783e03;
+    
+    
+}
+
+#resultado{
+    margin-left:155px;
+    
+}

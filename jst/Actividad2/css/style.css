@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&family=Silkscreen&display=swap');
+
+body{
+    background-color:  #89CFFD;
+    color: rgb(0, 26, 255);
+    font-family: 'Roboto', sans-serif;
+    margin-top: center;
+    text-align: center;
+    
+}
+
+h1{
+    background-color: #72FFFF;
+    text-align: center;
+    border-radius: 12px;
+    padding: 12px;
+    color: #000;
+
+}
+
+a{
+    background-color: #0096FF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+div{
+    background-color: #00D7FF;
+    color: #5800FF;
+    padding: 20px;
+}
+
+
+
+
