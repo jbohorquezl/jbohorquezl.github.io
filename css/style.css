@@ -111,5 +111,15 @@ footer{
     text-align: center;
 }
 
+@media screen and (max-width:800px) {
+    .container nav{
+        flex-direction: column;
+    }
+
+    .container .main{
+        flex-direction: column;
+    }
+}
+
 
 
